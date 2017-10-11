@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Overlock+SC');
+
+
+#wrapper, #header, #image {
+  width: 1200px;
+}
+
+p {
+  font-family: helvetica;
+}
+
+#strangelove {
+  float: left;
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 8px;
+}
+
+ul {
+  padding-top: 60px;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: 'Overlock SC', cursive;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#bottomwrapper {
+  width: 1200px;
+  clear: both;
+}
+
+.colheading {
+  font-size: 30px;
+  font-family: 'Overlock SC', cursive;
+}
+
+#column1 {
+  width: 580px;
+  float: left;
+  margin-left: 20px;
+}
+
+#button {
+  width: 150px;
+  background-color: #4936F3;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 5px;
+}
+
+#button:hover {
+  background-color: #89a0e5;
+  cursor: pointer;
+}
+
+#buttontext {
+  font-family: 'Overlock SC', cursive;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+#column2 {
+  width: 580px;
+  float: right;
+  background-color: #c3dee2;
+  padding-left: 20px;
+  box-shadow: 1px 1px 3px 3px grey inset;
+  border-radius: 5px;
+}
+
+#buddha {
+  width: 1200px;
+  height: 800px;
+  border-radius: 5px;
+}
+
+.zen {
+  width: 120px;
+  height: 100px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.zen:hover {
+  cursor: pointer;
+}
+
+#row3 {
+  padding-bottom: 30px;
+}
